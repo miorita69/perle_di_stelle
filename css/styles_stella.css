@@ -133,13 +133,13 @@
 .slider__item-image {
     position: relative;
     width: 50%;
-    border: dodgerblue 1px solid;
+    /*border: dodgerblue 1px solid;*/
 }
 
 .slider__item-body {
     width: 50%;
     padding: 0 20px;
-    border: darkgreen 1px solid;
+    /*border: darkgreen 1px solid;*/
 }
 
 .slider__item-image img {
