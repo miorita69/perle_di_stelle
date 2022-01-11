@@ -57,8 +57,9 @@
     </header>
     <main>
         <section class="wrapper">
+            <img class="delimiter" src="images/delimiter.svg" alt="Delimitarea">
             <article class="article">
-                <span class="article__title">WHAT IS “PERLE DI STELLE”</span>
+                <h2 class="article__title">WHAT IS “PERLE DI STELLE”</h2>
                 <div class="article__body">
                     <div class="article__body-home__long">
                         <p>Imagine being in Venice during nigh-time, one of the most beautiful and romantic cities in
@@ -87,8 +88,9 @@
                     </div>
                 </div>
             </article>
+            <img class="delimiter" src="images/delimiter.svg" alt="Delimitarea">
             <article class="article">
-                <span class="article__title">MOMYLIA AND “PERLE DI STELLE”</span>
+                <h2 class="article__title">MOMYLIA AND “PERLE DI STELLE”</h2>
                 <div class="article__body">
                     <div class="article__body-home__long">
                         <p>How “Perle di Stelle” was invented: the brand “Perle di Stelle” was born
@@ -120,6 +122,7 @@
                 </div>
 
             </article>
+            <img class="delimiter" src="images/delimiter.svg" alt="Delimitarea">
         </section>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11196.765010877114!2d12.332404899999998!3d45.445801999999986!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc583b2e9b353cb45!2sMomylia%20Di%20Rizzo%20Emilia!5e0!3m2!1sru!2s!4v1640953473238!5m2!1sru!2s"
@@ -178,26 +181,7 @@
         </section>
     </footer>
 
-    <script>
-        const hamburger = document.querySelector(".hamburger");
-        const navMenu = document.querySelector(".navbar__list");
-
-        hamburger.addEventListener("click", mobileMenu);
-
-        function mobileMenu() {
-            hamburger.classList.toggle("active");
-            navMenu.classList.toggle("active");
-        }
-
-        const navLink = document.querySelectorAll(".navbar__link");
-
-        navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-        function closeMenu() {
-            hamburger.classList.remove("active");
-            navMenu.classList.remove("active");
-        }
-    </script>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
