@@ -125,6 +125,7 @@
 
 .slider__item {
     display: flex;
+    flex-direction: row;
 }
 
 .slider__block {
@@ -431,6 +432,25 @@ Object {
 /*    .header__wrapper {
 
     }*/
+
+    .slider__item {
+        display: flex;
+        flex-direction: column;
+    }
+    .slider__item-image {
+        position: relative;
+        width: 100%;
+        /*border: dodgerblue 1px solid;*/
+    }
+    
+    .slider__item-body {
+        width: 100%;
+        padding: 0 20px;
+        /*border: darkgreen 1px solid;*/
+    }
+    .slider__prev, .slider__next {
+        top: 25%;
+    }
     /* ----- MAIN tablet end ----- */
 
 
