@@ -109,9 +109,10 @@
     padding: 0;
     font-family: 'Monotype Corsiva';
     font-weight: 500;
-    font-size: 22px;
+    font-size: 24px;
     color: #b98e34;
     text-align: center;
+    text-shadow: 2px 2px #f3e3c9;
 }
 
 /* ----- SLIDER desktop start ----- */
@@ -202,6 +203,7 @@ Object {
     font-size: 24px;
     color: #b98e34;
     text-align: center;
+    text-shadow: 2px 2px #f3e3c9;
 }
 
 .slider__item-body span {
@@ -426,9 +428,9 @@ Object {
 
 @media only screen and (max-width: 768px) { 
     /* ----- MAIN tablet start ----- */
-    .header__wrapper {
+/*    .header__wrapper {
 
-    }
+    }*/
     /* ----- MAIN tablet end ----- */
 
 
