@@ -381,12 +381,17 @@ Object {
     color: #b98e34;
 }
 
-.contacts__title {
+h2.contacts__title,
+h3.contacts__title {
     margin: 0;
     padding: 5px 10px 5px 10px;
     font-family: 'David Libre Regular';
     color: #000000;
     font-size: 22px;
+}
+
+h3.contacts__title {
+    font-size: 21px;
 }
 
 .contacts__text {
