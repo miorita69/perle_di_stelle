@@ -368,30 +368,30 @@ Object {
 
 
 /* ----- CONTACTS desktop start ----- */
-.contacts__info {
+.contacts__info,
+.contacts__info a {
     margin: 0;
-    padding: 0 20px;
+    padding: 0 0 0 15px;
     font-family: 'David Libre Medium';
     font-size: 20px;
     color: #b98e34;
     text-shadow: 2px 2px #f3e3c9;
+}
+.contacts__info a {
+    padding: 0;
+    text-decoration: none;
 }
 
 .slider__item-body span {
     color: #b98e34;
 }
 
-h2.contacts__title,
-h3.contacts__title {
+.contacts__title {
     margin: 0;
     padding: 5px 10px 5px 10px;
     font-family: 'David Libre Regular';
     color: #000000;
     font-size: 22px;
-}
-
-h3.contacts__title {
-    font-size: 21px;
 }
 
 .contacts__text {
@@ -484,6 +484,10 @@ h3.contacts__title {
     font-family: 'David Libre Regular';
     font-size: 16px;
     text-align: center;
+}
+.footer__description a {
+    color: #000000;
+    text-decoration: none;
 }
 /* ----- FOOTER desktop end ----- */
 
