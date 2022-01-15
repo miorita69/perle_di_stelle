@@ -44,7 +44,7 @@
     border: none;
     width: 100%;
     height: 150px;
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
     opacity: 0.8;
     display:block;
@@ -70,7 +70,8 @@
 
 .article__body {
     width: 100%;
-    margin: 0 10px;
+    margin: 0;
+    padding: 0 10px;
     clear:both;
 }
 .article__body ul {
@@ -83,8 +84,8 @@
 
 .article__body p,
 .article__body ul li {
-    margin: 0 20px;
-    padding: 0 0 15px 0;
+    margin: 0;
+    padding: 0 0 10px 0;
     font-family: 'David Libre Regular';
     font-size: 17px;
     line-height: 1.5;
@@ -96,14 +97,14 @@
     width: 300px;
     height: auto;
     float: left;
-    margin: 0 10px 10px 0;
+    margin: 0 20px 10px 0;
 }
 
 .delimiter {
     width: 20%;
     height: auto;
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     clear:both;
 }
 
@@ -224,7 +225,7 @@ Object {
     margin: 10px 0;
     padding: 0;
     font-family: 'David Libre Regular';
-    font-size: 18px;
+    font-size: 20px;
     color: #000000;
     text-align: center;
 }
@@ -240,12 +241,12 @@ Object {
     margin: 10px 0;
     padding: 0;
     font-family: 'David Libre Regular';
-    font-size: 16px;
+    font-size: 18px;
     color: #000000;
 }
 .slider__item-brand {
     font-family: 'Monotype Corsiva';
-    font-size: 20px;
+    font-size: 22px;
 }
 
 /* ----- SLIDER desktop end ----- */
@@ -364,6 +365,42 @@ Object {
     color: #000000;
 }
 /* ----- HEADER desktop end ----- */
+
+
+/* ----- CONTACTS desktop start ----- */
+.contacts__info {
+    margin: 0;
+    padding: 0 20px;
+    font-family: 'David Libre Medium';
+    font-size: 20px;
+    color: #b98e34;
+    text-shadow: 2px 2px #f3e3c9;
+}
+
+.slider__item-body span {
+    color: #b98e34;
+}
+
+.contacts__text {
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    font-family: 'David Libre Regular';
+    font-size: 20px;
+    color: #000000;
+}
+
+.contacts__list {
+    list-style-type: none;
+    list-style-position: inside;
+    list-style-image: none;
+}
+.contacts__item {
+    text-indent: 20px;
+}
+/* ----- CONTACTS desktop end ----- */
+
+
+
 /* ----- FOOTER desktop start ----- */
 .footer__wrapper {
     width:  100%;
@@ -443,11 +480,15 @@ Object {
 
     }*/
 
+    .article__body {
+        margin: 0;
+    }
+
     .article__body-image {
         width: 100%;
         height: auto;
         clear: both;
-        margin: 0 10px 10px 0;
+        margin: 0;
     }
 
     .slider__item {
@@ -462,7 +503,7 @@ Object {
     
     .slider__item-body {
         width: 100%;
-        padding: 0 20px;
+        padding: 0 15px;
         /*border: darkgreen 1px solid;*/
     }
     .slider__prev, .slider__next {
