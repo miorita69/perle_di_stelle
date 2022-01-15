@@ -381,12 +381,21 @@ Object {
     color: #b98e34;
 }
 
+.contacts__title {
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    font-family: 'David Libre Regular';
+    color: #000000;
+    font-size: 22px;
+}
+
 .contacts__text {
     margin: 0;
     padding: 5px 10px 5px 10px;
     font-family: 'David Libre Regular';
     font-size: 20px;
     color: #000000;
+    text-indent: 25px;
 }
 
 .contacts__list {
