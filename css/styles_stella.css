@@ -18,6 +18,29 @@
     font-weight: 700;
 }
 
+.visually-hidden {
+    position: absolute;
+  
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*
+Object {
+    "Rosy Brown":"#b38d8b",
+    "Champagne":"#f3e3c9",
+    "Black":"#000000",
+    "Cultured":"#eeeeee",
+    "Dark Goldenrod":"#b98e34"
+}
+*/
+
 :root {
     --mobile-width: 320px;
     --tablet-width: 780px;
@@ -94,7 +117,7 @@
 }
 
 .article__body-image {
-    width: 300px;
+    width: 230px;
     height: auto;
     float: left;
     margin: 0 20px 10px 0;
@@ -196,16 +219,6 @@
     background-color: #b98e34;
     opacity: 0.8;
 }
-
-/*
-Object {
-    "Rosy Brown":"#b38d8b",
-    "Champagne":"#f3e3c9",
-    "Black":"#000000",
-    "Cultured":"#eeeeee",
-    "Dark Goldenrod":"#b98e34"
-}
-*/
 
 .slider__item-title {
     margin: 10px 0;
