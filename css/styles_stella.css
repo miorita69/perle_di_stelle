@@ -81,6 +81,10 @@ Object {
     /*border: 1px solid magenta;*/
 }
 
+.upper-case {
+    vertical-align: super;
+}
+
 .article__title {
     margin: 10px;
     font-family: 'Monotype Corsiva';
@@ -121,6 +125,13 @@ Object {
     height: auto;
     float: left;
     margin: 0 20px 10px 0;
+}
+
+.article__body-registre {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .delimiter {
@@ -515,7 +526,8 @@ Object {
         margin: 0;
     }
 
-    .article__body-image {
+    .article__body-image,
+    .article__body-registre {
         width: 100%;
         height: auto;
         clear: both;
