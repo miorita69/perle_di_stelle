@@ -127,13 +127,6 @@ Object {
     margin: 0 20px 10px 0;
 }
 
-.article__body-registre {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
 .delimiter {
     width: 20%;
     height: auto;
@@ -526,8 +519,7 @@ Object {
         margin: 0;
     }
 
-    .article__body-image,
-    .article__body-registre {
+    .article__body-image {
         width: 100%;
         height: auto;
         clear: both;
