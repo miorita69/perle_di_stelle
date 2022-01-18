@@ -299,7 +299,7 @@ Object {
 
 .navbar__logo-image {
     width: auto;
-    height: calc(100% - 10px);
+    height: calc(90% - 10px);
     display: block;
     margin: 5px auto;
 }
@@ -328,6 +328,7 @@ Object {
     color: #000000;
     text-decoration: none;
     text-shadow: 2px 2px #f3e3c9;
+    white-space: nowrap;
     border: 1px solid transparent;
 }
 .navbar__link:hover {
@@ -381,6 +382,21 @@ Object {
 .language__list input[type="radio"]:checked+label:hover {
     color: #000000;
 }
+
+/*
+Object {
+    "Rosy Brown":"#b38d8b",
+    "Champagne":"#f3e3c9",
+    "Black":"#000000",
+    "Cultured":"#eeeeee",
+    "Dark Goldenrod":"#b98e34"
+}
+*/
+.language__list input[type="radio"]:disabled+label,
+.language__list input[type="radio"]:disabled+label:hover {
+    color: #f3e3c9;
+}
+
 /* ----- HEADER desktop end ----- */
 
 
@@ -509,7 +525,7 @@ Object {
 /* ----- FOOTER desktop end ----- */
 
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 860px) { 
     /* ----- MAIN tablet start ----- */
 /*    .header__wrapper {
 
