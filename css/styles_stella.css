@@ -581,7 +581,7 @@ Object {
     .navbar__logo-image {
         width: 100%;
         height: var(--tablet-navbar-height);
-
+        overflow: visible;
         display: block;
         margin: 0 auto;
         /*border: blue 1px solid;*/
