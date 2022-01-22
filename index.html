@@ -56,16 +56,16 @@
             </div>
 
             <div class="language__list">
-                <input type="radio" id="En" checked="checked" name="selectLanguage" value="en">
+                <input type="radio" id="En" name="selectLanguage" value="en" onclick="getLanguageValue()">
                 <label for="En">En</label>
 
-                <input type="radio" id="It" name="selectLanguage" value="it" disabled="disabled">
+                <input type="radio" id="It" name="selectLanguage" value="it" onclick="getLanguageValue()">
                 <label for="It">It</label>
 
-                <input type="radio" id="Ro" name="selectLanguage" value="ro" disabled="disabled">
+                <input type="radio" id="Ro" name="selectLanguage" value="ro" onclick="getLanguageValue()">
                 <label for="Ro">Ro</label>
 
-                <input type="radio" id="Ru" name="selectLanguage" value="ru" disabled="disabled">
+                <input type="radio" id="Ru" name="selectLanguage" value="ru" onclick="getLanguageValue()">
                 <label for="Ru">Ru</label>
             </div>
 
@@ -77,13 +77,13 @@
             <h2 class="visually-hidden">Main Page Wrapper</h2>
             <img class="delimiter" src="images/delimiter.svg" alt="Delimitarea">
             <article class="article">
-                <h2 class="article__title">What is Perle di Selle<span class="upper-case">&#174;</span></h2>
+                <h2 class="article__title">What is Perle di Stelle<span class="upper-case">&#174;</span></h2>
 
                 <div class="article__body">
                     <img class="article__body-image" src="images/articles/article1_1.png"
                         alt="Perle di Stelle Sky Collection">
-                    <p class="article__paragraph">Perle di Selle<span class="upper-case">&#174;</span> is a handmade
-                        brand made in Venice , which is characterized by a selection of unique jewelry collection ,
+                    <p class="article__paragraph">Perle di Stelle<span class="upper-case">&#174;</span> is a handmade
+                        brand made in Venice, which is characterized by a selection of unique jewelry collection ,
                         using Murano glass and real meteorites. We wanted to combine Venice with the immensity of the
                         space.</p>
 
@@ -92,7 +92,7 @@
                         even better on its lagoon.</p>
 
                     <p class="article__paragraph">It is not easy to capture the essence and spirituality of such a
-                        fascinating painting and transform it into objects made to be worn. Perle di Selle<span
+                        fascinating painting and transform it into objects made to be worn. Perle di Stelle<span
                             class="upper-case">&#174;</span> together with Momylia managed to do it. We have created
                         jewels made with Murano glass, which are truly unique, involving science, craftsmanship and
                         technology.</p>
@@ -155,11 +155,11 @@
 
                     <p class="article__paragraph">It is not a toy! Keep out of reach of children.</p>
 
-                    <p class="article__paragraph">Owner of the Perle di Selle<span class="upper-case">&#174;</span>
-                        brand: Adam Ecaterina.</p>
+                    <p class="article__paragraph">Owner of the Perle di Stelle<span class="upper-case">&#174;</span>
+                        brand is Adam Ecaterina.</p>
 
-                    <p class="article__paragraph">Producer of the Perle di Selle<span class="upper-case">&#174;</span>
-                        brand: Momylia di Milly Rizzo, 3378 Cannaregio, 30121 Venice, Italy.</p>
+                    <p class="article__paragraph">Producer of the Perle di Stelle<span class="upper-case">&#174;</span>
+                        brand is Momylia di Milly Rizzo, 3378 Cannaregio, 30121 Venice, Italy.</p>
                 </div>
             </article>
 
@@ -170,10 +170,12 @@
                     <h3 class="article__title">A bit of science</h3>
                     <img class="article__body-image" src="images/articles/article1_4.png" alt="Maurizio Eltri photo">
 
-                    <p>Most of the meteorites that fall on Earth are from asteroid origin, but there are also from the
+                    <p class="article__paragraph">Most of the meteorites that fall on Earth are from asteroid origin,
+                        but there are also from the
                         Moon and Mars. Here's how this is possible.</p>
 
-                    <p>Over time, all planets, including ours, are subject to large meteoroid impacts, the energy
+                    <p class="article__paragraph">Over time, all planets, including ours, are subject to large meteoroid
+                        impacts, the energy
                         released by such impacts on the surface of rocky planets or satellites can be large enough to
                         hurl rocks into space with a speed higher than the escape velocity of the parent body, such
                         rocks disperse in interplanetary space and gradually can also fall on the Earth. Therefore ,
@@ -183,9 +185,10 @@
                         missions or by the analyzes made by the space probes that went to Mars. In both cases,
                         integration with information regarding isotopic abundance is what confirms the origin.</p>
 
-                    <p>Maurizio Eltri</p>
+                    <p class="article__paragraph">Maurizio Eltri</p>
 
-                    <p>In the photo: Maurizio Eltri holding a lunar meteoite of over two hundred grams, (NWA11303),
+                    <p class="article__paragraph">In the photo: Maurizio Eltri holding a lunar meteoite of over two
+                        hundred grams, (NWA11303),
                         belonging to his collection of meteorites.</p>
                 </div>
             </article>
@@ -197,18 +200,22 @@
                 <div class="article__body">
                     <img class="article__body-image" src="images/articles/article2_1.png" alt="Momylia">
 
-                    <p>Perle di Stelle<span class="upper-case">&#174;</span> brand was born several years ago thanks to
+                    <p class="article__paragraph">Perle di Stelle<span class="upper-case">&#174;</span> brand was born
+                        several years ago thanks to
                         Maurizio Eltri passion about astronomy and the creativity of his wife Ecaterina Adam.</p>
 
-                    <p>After months of work to study the adaptability of different types of meteorites on Murano glass,
+                    <p class="article__paragraph">After months of work to study the adaptability of different types of
+                        meteorites on Murano glass,
                         Maurizio and Ecaterina have found a very valid and irreplaceable collaboration with "Momylia"
                         (Emilia Rizzo and Mauro Zennaro).</p>
 
-                    <p>The true experts in the art of Venetian pearl making, Mauro and his wife Emilia immediately
+                    <p class="article__paragraph">The true experts in the art of Venetian pearl making, Mauro and his
+                        wife Emilia immediately
                         accepted with pleasure and enthusiasm the challenge of creating jewelry by incorporating
                         extraterrestrial fragments into the glass.</p>
 
-                    <p>Thanks to their great passion and over thirty years of experience in lampworking glass, guided
+                    <p class="article__paragraph">Thanks to their great passion and over thirty years of experience in
+                        lampworking glass, guided
                         by the wonderful idea they were pursuing, specifically to enclose a piece of the Universe within
                         Murano glass, after some time they obtained truly brilliant results. This is the way it was born
                         the union between Perle di Stelle<span class="upper-case">&#174;</span> and "Momylia".</p>
@@ -280,7 +287,7 @@
     </footer>
 
     <script src="js/menu.js"></script>
-
+    <script src="js/language.js"></script>
 </body>
 
 </html>
