@@ -1,6 +1,6 @@
 const navigation = {
     "en": ["About Us", "Catalog", "Contacts"],
-    "it": ["Chi Siamo", "Catalogare", "Contatti"],
+    "it": ["Chi Siamo", "Catalogo", "Contatti"],
     "ro": ["Despre Noi", "Catalog", "Contacte"],
     "ru": ["О Нас", "Каталог", "Контакты"],
 };
@@ -55,16 +55,16 @@ articles[0]["ro"] = {
 
 articles[0]["it"] = {
     "title": "Cos'è Perle di Stelle ?",
-    0: '(0 italian 0) Perle di Stelle is a handmade brand  made in Venice , which is characterized by a selection of unique jewelry collection , using Murano glass and real meteorites. We wanted to combine Venice with the immensity of the space.',
-    1: '(0 italian 1) Imagine being in the most beautiful and romantic city in the world, on a clear night you observe the stars and the moon reflected in the water on one of its canals or even better on its lagoon.',
-    2: '(0 italian 2) It is not easy to capture the essence and spirituality of such a fascinating painting and transform it into objects made to be worn. Perle di Stelle together with Momylia managed to do it. We have created jewels made with Murano glass, which are truly unique, involving science, craftsmanship and technology.',
-    3: '(0 italian 3) Thanks to a meticulous work, entirely handmade and consisting of a mix of glass, rocks from space and precious metals, we have created jewels with the intention of going beyond simple ornament.',
-    4: '(0 italian 4) All parts are manually assembled using quality elements, mostly 925 silver. Our brand ensures a lifetime guarantee on all creations. The jewels are also designed for lovers of craftsmanship thus you will never find two absolutely alike. The work is done by artisans who first acquired the necessary practice to combine Murano glass with extraterrestrial rock fragments, which are mostly older than our own planet.',
-    5: '(0 italian 5) The small fragments belong to meteorites classified and present on the Meteoritical Bulletin Database, of the Meteoritical Society (International Society for Meteoritics and Planetary Science).',
-    6: '(0 italian 6) Among the meteorites we are using for example are:',
-    7: '(0 italian 7) ✦ Meteorites fell in Chelyabinsk, Russia, on February 15, 2013. Fall became famous for the size and brightness of the fireball as well as for the multitude of videos on the internet. Over a ton of chondrite-type meteorites (LL5) fell in Chelyabinsk;',
-    8: '(0 italian 8) ✦ NWA 869 meteorites not seen falling, found in Northwest Africa in 2001. Type chondrites (L4-6);',
-    9: '(0 italian 9) ✦ NWA 11421 Meteorites also found in northwestern Africa and classified as lunar meteorites (Lunar feldspathic breccia). These meteorites are composed of rocks that come from the lunar highlands, that is, from the lighter areas, which can be seen by observing the Moon, even with the naked eye.',
+    0: "Perle di Stelle si caratterizza per una selezione di gioielli unici, ideati e fatti a Venezia in modo artigianale, utilizzando vetro di Murano e vere meteoriti. Abbiamo voluto coniugare Venezia con l'immensità dello spazio.",
+    1: "Immaginate di trovarvi nella città più bella e romantica al mondo, in una notte limpida e osservare le stelle e la luna riflesse nell'acqua di uno dei suoi canali o della sua laguna.",
+    2: "Non è facile catturare l'essenza e la spiritualità di una situazione così affascinante e trasformarla in oggetti fatti per essere indossati. Perle di Selle® insieme a Momylia ce l’hanno fatta,  creando gioielli in vetro di Murano, davvero unici, che coinvolgono scienza, artigianato e tecnologia.",
+    3: "Grazie a un lavoro meticoloso, interamente fatto a mano e costituito da un mix di vetro, rocce provenienti dallo spazio e metalli preziosi, abbiamo creato gioielli con l'intento di andare oltre il semplice ornamento.",
+    4: "Tutte le parti sono assemblate manualmente utilizzando elementi di qualità, principalmente argento 925. Il nostro marchio garantisce a vita tutte le sue creazioni. I gioielli sono pensati anche per gli amanti dell'artigianato, quindi non ne troverete mai due assolutamente uguali. Il lavoro è svolto da artigiani che per primi hanno acquisito la pratica necessaria per combinare il vetro di Murano con frammenti di roccia extraterrestre.",
+    5: "I piccoli frammenti appartengono a meteoriti classificate e presenti sul Meteoritical Bulletin Database, della Meteoritical Society (International Society for Meteoritics and Planetary Science).",
+    6: "Ad esempio, tra le meteoriti che stiamo utilizzando ci sono:",
+    7: "✦ Meteoriti cadute a Chelyabinsk, Russia, il 15 febbraio 2013. L'evento è diventato famoso per le dimensioni e la luminosità della palla di fuoco vista da una moltitudine di persone, nonché per i numerosi video della caduta presenti su Internet. Oltre una tonnellata di meteoriti di tipo condrite (LL5) sono cadute presso la città di Chelyabinsk;",
+    8: "✦ NWA 869 meteoriti non viste cadere, trovate nell'Africa nord-occidentale, nel 2001. Tipo condriti (L4-6);",
+    9: "✦ NWA 11421 anche queste meteoriti sono state trovate  nell'Africa nordoccidentale e classificate come meteoriti lunari (breccia feldspatica lunare). Queste meteoriti sono composte di rocce che provengono dagli altopiani lunari, cioè dalle zone più chiare, che si possono vedere osservando la Luna, anche a occhio nudo.",
 };
 
 articles[1]["en"] = {
@@ -101,14 +101,14 @@ articles[1]["ro"] = {
 };
 
 articles[1]["it"] = {
-    "title": 'Garanzia Materiale:',
-    0: '(1 italian 0) The meteorites we use are absolutely not dangerous for humans and radioactive level is similar or lower than the average of the most common terrestrial rocks.',
-    1: '(1 italian 1) The possible presence in the meteoritic material allergenic agents, such as nickel, are rendered harmless, because they are immersed in glass.',
-    2: '(1 italian 2) The metal material used for the assembly is all hypoallergenic, the small parts are in rhodium-plated or / and gold-plated 925 silver and complies with the European Regulation n.1907 / 2006 / EC (in acronym REACH and mod. EC Regulation n. 494/2011 ). For the same REACH it is compliant with the release of nickel: EN 1811: 2011.',
-    3: '(1 italian 3) PRECAUTIONS: Correct use of the product is recommended, strong shocks could break and make pearls sharp. In this case the jewel should not be worn, we decline any responsibility for the damage that could derive from it.',
-    4: '(1 italian 4) It is not a toy. Keep out of reach of children.',
-    5: '(1 italian 5) Owner of the Perle di Stelle brand is Adam Ecaterina.',
-    6: '(1 italian 6) Producer of the Perle di Stelle brand: Momylia di Rizzo Emilia, 3378 Cannaregio, 30121 Venice, Italy.',
+    "title": 'Garanzia sui materiali usati:',
+    0: "I meteoriti che utilizziamo non sono assolutamente pericolosi per l'uomo e il livello radioattivo è simile o inferiore alla media delle più comuni rocce terrestri.",
+    1: "L'eventuale presenza nel materiale meteoritico di agenti allergenici, come il nichel, sono resi innocui, perché immersi nel vetro.",
+    2: "Il materiale metallico utilizzato per l'assemblaggio è tutto anallergico, le minuterie sono in argento 925 rodiato o dorato ed è conforme al Regolamento Europeo n.1907/2006/CE (in sigla REACH e mod. Regolamento CE n. 494/2011). Per lo stesso REACH è conforme al rilascio di nichel: EN 1811:2011.",
+    3: 'PRECAUZIONI: Si raccomanda un uso corretto del prodotto, forti urti potrebbero rompere le perle e renderle taglienti. In questo caso il gioiello non va indossato, si declina ogni responsabilità per i danni che ne potrebbero derivare.',
+    4: 'Non è un giocattolo. Tenere fuori dalla portata dei bambini.',
+    5: 'Titolare del marchio Perle di Stelle®: Adam Ecaterina.',
+    6: 'Produttore del marchio Perle di Stelle: Momylia di Milly Rizzo, 3378 Cannaregio, 30121 Venezia, Italia.',
 };
 
 articles[2]["en"] = {
@@ -136,11 +136,11 @@ articles[2]["ro"] = {
 };
 
 articles[2]["it"] = {
-    "title": "Un po' di scienza",
-    0: "(2 italian 0) Most of the meteorites that fall on Earth are from asteroid origin, but there are also from the Moon and Mars. Here's how this is possible.",
-    1: '(2 italian 1) Over time, all planets, including ours, are subject to  large meteoroid impacts, the energy released by such impacts on the surface of rocky planets or satellites can be large enough to hurl rocks into space with a speed  higher than the escape velocity of the parent body, such rocks disperse in interplanetary space and gradually can also fall on the Earth. Therefore , from time to time, Martian and lunar meteorites fall, probably also from other planets. The certainty that the meteorite comes from Moon or from Mars is determined by a mineralogical comparison made with the lunar samples collected mainly by the astronauts from the Apollo missions or by the analyzes made by the space probes that went to Mars. In both cases, integration with information regarding isotopic abundance is what confirms the origin.',
-    2: '(2 italian 2) Maurizio Eltri',
-    3: '(2 italian 3) In the photo: Maurizio Eltri holding a lunar meteoite of over two hundred grams, (NWA11303), belonging to his collection of meteorites.',
+    "title": "Un po’ di scienza",
+    0: "La maggior parte delle meteoriti che cadono sulla Terra sono di origine asteroidale, ma ce ne sono che provengono anche dalla Luna e da Marte. Ecco come questo è possibile.",
+    1: "Nel corso del tempo, tutti i pianeti, compreso il nostro, sono soggetti a impatti con meteoroidi anche di grandi dimensioni, l'energia rilasciata da tali impatti sulla superficie di pianeti rocciosi o i loro satelliti, può essere abbastanza grande da scagliare rocce nello spazio con una velocità superiore alla velocità di fuga del corpo progenitore, tali rocce si disperdono nello spazio interplanetario e gradualmente possono cadere anche sulla Terra. Pertanto, di tanto in tanto, cadono meteoriti marziane e lunari, probabilmente anche da altri pianeti. La certezza che la meteorite provenga dalla Luna o da Marte, è determinata dal confronto mineralogico fatto con i campioni lunari raccolti principalmente dagli astronauti dalle missioni Apollo o dalle analisi fatte dalle sonde spaziali, che sono andate su Marte. In entrambi i casi, l'integrazione con le informazioni sull'abbondanza isotopica è ciò che ne conferma l'origine.",
+    2: 'Maurizio Eltri',
+    3: 'Nella foto: Maurizio Eltri che osserva una meteoite lunare di oltre duecento grammi (NWA11303), appartenente alla sua collezione di meteoriti.',
 };
 
 articles[3]["en"] = {
@@ -169,28 +169,13 @@ articles[3]["ro"] = {
 
 articles[3]["it"] = {
     "title": '"Momylia" e "Perle di Stelle"',
-    0: '(3 italian 0) Perle di Stelle brand was born several years ago thanks to Maurizio Eltri passion about astronomy and the creativity of his wife Ecaterina Adam.',
-    1: '(3 italian 1) After months of work to study the adaptability of different types of meteorites on Murano glass, Maurizio and Ecaterina have found a very valid and irreplaceable collaboration with "Momylia" (Emilia Rizzo and Mauro Zennaro).',
-    2: '(3 italian 2) The true experts in the art of Venetian pearl making, Mauro and his wife Emilia immediately accepted with pleasure and enthusiasm the challenge of creating jewelry by incorporating extraterrestrial fragments into the glass.',
-    3: '(3 italian 3) Thanks to their great passion and over thirty years of experience in lampworking glass, guided by the wonderful idea they were pursuing, specifically to enclose a piece of the Universe within Murano glass, after some time they obtained truly brilliant results. This is the way it was born the union between Perle di Stelle and "Momylia".',
+    0: "Il marchio Perle di Stelle® nasce diversi anni fa grazie alla passione di Maurizio Eltri per l'astronomia e alla creatività della moglie Ecaterina Adam.",
+    1: "Dopo tanto tempo trascorso a studiare l'adattabilità di diversi tipi di meteoriti sul vetro di Murano, Maurizio ed Ecaterina hanno trovato una validissima e insostituibile collaborazione con 'Momylia' (Emilia Rizzo e Mauro Zennaro).",
+    2: "Veri esperti nell'arte perlaia veneziana, Mauro e sua moglie Emilia, hanno sin da subito accettato con piacere ed entusiasmo la sfida di creare gioielli incorporando nel vetro frammenti extraterrestri.",
+    3: "Grazie alla loro grande passione e a oltre trent'anni d’esperienza nella lavorazione del vetro a lume, guidati dalla meravigliosa idea che stavano portando avanti, cioè di racchiudere un pezzo di Universo all'interno del vetro di Murano. Dopo qualche tempo hanno ottenuto risultati davvero brillanti. Nasce così l'unione tra Perle di Stelle e 'Momylia'.",
 };
-
 
 console.log('ARTICLES', articles);
-
-
-var myTable = [];
-createArray(10);
-function createArray(myLength) {
-    myTable = new Array(myLength);
-    var cols, rows;
-    for (cols = 0; cols < myLength; cols++) {
-        myTable[cols] = new Array(myLength);
-    }
-};
-
-
-
 
 let languageValue = 'en';
 
@@ -200,15 +185,15 @@ function getLanguageValue() {
     for (i = 0; i < elems.length; i++) {
         if (elems[i].checked) {
             languageValue = elems[i].value;
-            console.log(i, ' = ', elems[i].value);
+            // console.log(i, ' = ', elems[i].value);
         };
     };
 
     let nav__list = document.querySelectorAll(".navbar__link");
     for (i = 0; i < nav__list.length; i++) {
-        //console.log(i, ' = ', nav__list[i].text);
+        // console.log(i, ' = ', nav__list[i].text);
         nav__list[i].text = navigation[languageValue][i];
-        console.log(i, ' = ', nav__list[i].text);
+        // console.log(i, ' = ', nav__list[i].text);
     };
 
     let article__list = document.querySelectorAll(".article");
@@ -217,16 +202,13 @@ function getLanguageValue() {
         let x = article__list[i].querySelectorAll(".article__paragraph");
         let y = article__list[i].querySelector(".article__title");
         y.textContent = articles[i][languageValue].title;
-        console.log('Title = ', y.textContent);
-
-        //console.log('M= ', articles[i][languageValue][0]);
+        // console.log('Title = ', y.textContent);
+        // console.log('M= ', articles[i][languageValue][0]);
 
 
         for (j = 0; j < x.length; j++) {
-            x[j].innerText = articles[i][languageValue][j];
-            console.log('X[', j, '] inner = ', x[j].innerText);
             x[j].textContent = articles[i][languageValue][j];
-            console.log('X[', j, '] content = ', x[j].textContent);
+            // console.log('X[', j, '] content = ', x[j].textContent);
         };
 
         // console.log(i, ' = ', nav__list[i].text);
@@ -236,8 +218,3 @@ function getLanguageValue() {
 
     console.log(navigation[languageValue]);
 };
-
-
-
-
-
