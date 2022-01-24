@@ -1,3 +1,5 @@
+const languageSet = ["en", "it", "ro", "ru"];
+
 const navigation = {
     "en": ["About Us", "Catalog", "Contacts"],
     "it": ["Chi Siamo", "Catalogo", "Contatti"],
@@ -102,7 +104,7 @@ articles[1]["ro"] = {
 
 articles[1]["it"] = {
     "title": 'Garanzia sui materiali usati:',
-    0: "I meteoriti che utilizziamo non sono assolutamente pericolosi per l'uomo e il livello radioattivo è simile o inferiore alla media delle più comuni rocce terrestri.",
+    0: "Le meteoriti che utilizziamo non sono assolutamente pericolosi per l'uomo e il livello radioattivo è simile o inferiore alla media delle più comuni rocce terrestri.",
     1: "L'eventuale presenza nel materiale meteoritico di agenti allergenici, come il nichel, sono resi innocui, perché immersi nel vetro.",
     2: "Il materiale metallico utilizzato per l'assemblaggio è tutto anallergico, le minuterie sono in argento 925 rodiato o dorato ed è conforme al Regolamento Europeo n.1907/2006/CE (in sigla REACH e mod. Regolamento CE n. 494/2011). Per lo stesso REACH è conforme al rilascio di nichel: EN 1811:2011.",
     3: 'PRECAUZIONI: Si raccomanda un uso corretto del prodotto, forti urti potrebbero rompere le perle e renderle taglienti. In questo caso il gioiello non va indossato, si declina ogni responsabilità per i danni che ne potrebbero derivare.',
@@ -138,7 +140,7 @@ articles[2]["ro"] = {
 articles[2]["it"] = {
     "title": "Un po’ di scienza",
     0: "La maggior parte delle meteoriti che cadono sulla Terra sono di origine asteroidale, ma ce ne sono che provengono anche dalla Luna e da Marte. Ecco come questo è possibile.",
-    1: "Nel corso del tempo, tutti i pianeti, compreso il nostro, sono soggetti a impatti con meteoroidi anche di grandi dimensioni, l'energia rilasciata da tali impatti sulla superficie di pianeti rocciosi o i loro satelliti, può essere abbastanza grande da scagliare rocce nello spazio con una velocità superiore alla velocità di fuga del corpo progenitore, tali rocce si disperdono nello spazio interplanetario e gradualmente possono cadere anche sulla Terra. Pertanto, di tanto in tanto, cadono meteoriti marziane e lunari, probabilmente anche da altri pianeti. La certezza che la meteorite provenga dalla Luna o da Marte, è determinata dal confronto mineralogico fatto con i campioni lunari raccolti principalmente dagli astronauti dalle missioni Apollo o dalle analisi fatte dalle sonde spaziali, che sono andate su Marte. In entrambi i casi, l'integrazione con le informazioni sull'abbondanza isotopica è ciò che ne conferma l'origine.",
+    1: "Nel corso del tempo, tutti i pianeti, compreso il nostro, sono soggetti a impatti con meteoroidi anche di grandi dimensioni, l'energia rilasciata da tali impatti sulla superficie di pianeti rocciosi o i loro satelliti, può essere abbastanza grande da scagliare rocce nello spazio con una velocità superiore alla velocità di fuga del corpo progenitore, tali rocce si disperdono nello spazio interplanetario e gradualmente possono cadere anche sulla Terra. Perciò, di tanto in tanto, cadono meteoriti marziane e lunari, probabilmente anche da altri pianeti. La certezza che la meteorite provenga dalla Luna o da Marte, è determinata dal confronto mineralogico fatto con i campioni lunari raccolti principalmente dagli astronauti dalle missioni Apollo o dalle analisi fatte dalle sonde spaziali, che sono andate su Marte. In entrambi i casi, l'integrazione con le informazioni sull'abbondanza isotopica è ciò che ne conferma l'origine.",
     2: 'Maurizio Eltri',
     3: 'Nella foto: Maurizio Eltri che osserva una meteoite lunare di oltre duecento grammi (NWA11303), appartenente alla sua collezione di meteoriti.',
 };
@@ -148,7 +150,7 @@ articles[3]["en"] = {
     0: '"Perle di Stelle" brand was born several years ago thanks to Maurizio Eltri passion about astronomy and the creativity of his wife Ecaterina Adam.',
     1: 'After months of work to study the adaptability of different types of meteorites on Murano glass, Maurizio and Ecaterina have found a very valid and irreplaceable collaboration with "Momylia" (Emilia Rizzo and Mauro Zennaro).',
     2: 'The true experts in the art of Venetian pearl making, Mauro and his wife Emilia immediately accepted with pleasure and enthusiasm the challenge of creating jewelry by incorporating extraterrestrial fragments into the glass.',
-    3: 'Thanks to their great passion and over thirty years of experience in lampworking glass, guided by the wonderful idea they were pursuing, specifically to enclose a piece of the Universe within Murano glass, after some time they obtained truly brilliant results. This is the way it was born the union between Perle di Stelle and "Momylia".',
+    3: 'Thanks to their great passion and over thirty years of experience in lampworking glass, guided by the wonderful idea they were pursuing, specifically to enclose a piece of the Universe within Murano glass, after some time they obtained truly brilliant results. This is the way it was born the union between "Perle di Stelle" and "Momylia".',
 };
 
 articles[3]["ru"] = {
@@ -156,7 +158,7 @@ articles[3]["ru"] = {
     0: 'Бренд Perle di Stelle<span class="upper-case">&#174;</span> родился несколько лет назад благодаря увлечению Маурицио Эльтри астрономией и творчеству его жены Екатерины Адам.',
     1: 'После нескольких месяцев работы по изучению приспособляемости различных типов метеоритов к муранскому стеклу Маурицио и Екатерина нашли очень ценное и незаменимое сотрудничество с компанией “Momylia” (основатели компании Эмилия Риццо и Мауро Зеннаро).',
     2: 'Настоящие знатоки искусства изготовления венецианского жемчуга, Мауро и его жена Эмилия, с удовольствием и энтузиазмом сразу же приняли вызов создания ювелирных украшений, интегрируя в стекло осколки внеземных цивилизаций.',
-    3: 'Благодаря их огромной страсти и более чем тридцатилетнему опыту в области художественной обработки стекла в пламени горелки, руководствуясь прекрасной идеей, которую они преследовали, а именно заключить частичку Вселенной в муранское стекло, через некоторое время они получили поистине блестящие результаты. Так родился союз Perle di Stelle и "Momylia"..',
+    3: 'Благодаря их огромной страсти и более чем тридцатилетнему опыту в области художественной обработки стекла в пламени горелки, руководствуясь прекрасной идеей, которую они преследовали, а именно заключить частичку Вселенной в муранское стекло, через некоторое время они получили поистине блестящие результаты. Так родился союз "Perle di Stelle" и "Momylia"..',
 };
 
 articles[3]["ro"] = {
@@ -164,7 +166,7 @@ articles[3]["ro"] = {
     0: 'Brandul Perle di Stelle a luat naștere în urmă cu câțiva ani datorită pasiunii lui Maurizio Eltri pentru astronomie și creativității soției sale, Ecaterina Adam.',
     1: 'După luni de muncă comună în studierea adaptabilității integrării diferitelor tipuri de meteoriți în sticla de Murano, Maurizio și Ecaterina au găsit o colaborare validă și fructuoasă, de neînlocuit cu „Momylia” (Emilia Rizzo și Mauro Zennaro).',
     2: 'Adevărații experți în arta confecționării perlelor venețiene, Mauro și soția sa Emilia au acceptat imediat cu plăcere și entuziasm provocarea de a crea bijuterii prin încorporarea fragmentelor extraterestre în sticlă.',
-    3: 'Datorită pasiunii lor mari și experienței de peste treizeci de ani în prelucrarea sticlei, ghidați de ideea minunată pe care o urmăreau, anume de a încadra o bucată de Univers în sticla de Murano, după ceva timp au obținut rezultate cu adevărat strălucitoare. Așa s-a născut uniunea dintre Perle di Stelle și „Momylia”.',
+    3: 'Datorită pasiunii lor mari și experienței de peste treizeci de ani în prelucrarea sticlei, ghidați de ideea minunată pe care o urmăreau, anume de a încadra o bucată de Univers în sticla de Murano, după ceva timp au obținut rezultate cu adevărat strălucitoare. Așa s-a născut uniunea dintre "Perle di Stelle" și „Momylia”.',
 };
 
 articles[3]["it"] = {
@@ -172,27 +174,54 @@ articles[3]["it"] = {
     0: "Il marchio Perle di Stelle® nasce diversi anni fa grazie alla passione di Maurizio Eltri per l'astronomia e alla creatività della moglie Ecaterina Adam.",
     1: "Dopo tanto tempo trascorso a studiare l'adattabilità di diversi tipi di meteoriti sul vetro di Murano, Maurizio ed Ecaterina hanno trovato una validissima e insostituibile collaborazione con 'Momylia' (Emilia Rizzo e Mauro Zennaro).",
     2: "Veri esperti nell'arte perlaia veneziana, Mauro e sua moglie Emilia, hanno sin da subito accettato con piacere ed entusiasmo la sfida di creare gioielli incorporando nel vetro frammenti extraterrestri.",
-    3: "Grazie alla loro grande passione e a oltre trent'anni d’esperienza nella lavorazione del vetro a lume, guidati dalla meravigliosa idea che stavano portando avanti, cioè di racchiudere un pezzo di Universo all'interno del vetro di Murano. Dopo qualche tempo hanno ottenuto risultati davvero brillanti. Nasce così l'unione tra Perle di Stelle e 'Momylia'.",
+    3: "Grazie alla loro grande passione e a oltre trent'anni d’esperienza nella lavorazione del vetro a lume, guidati dalla meravigliosa idea che stavano portando avanti, cioè di racchiudere un pezzo di Universo all'interno del vetro di Murano. Dopo qualche tempo hanno ottenuto risultati davvero brillanti. Nasce così l'unione tra 'Perle di Stelle' e 'Momylia'.",
 };
 
 console.log('ARTICLES', articles);
 
-let languageValue = 'en';
+/* Identify browser language */
+let userLang = navigator.language || navigator.userLanguage;
+let languageValue = userLang.slice(0, 2);
+console.log('1. Browser Language = ', languageValue);
 
-function getLanguageValue() {
+/* Identify our previous application language settings */
+var storedLanguage = localStorage.getItem("perlaLanguage");
+console.log('2. Our stored Language = ', storedLanguage);
+
+/*  verify if storedLanguage includes in languageSet = (en, it, ro, ru) */
+var flag = languageSet.includes(storedLanguage);
+console.log('flag = ', flag);
+
+var selectedLanguage;
+
+if (storedLanguage != null) {
+    if (flag) selectedLanguage = storedLanguage
+    else selectedLanguage = languageValue;
+}
+else {
+    selectedLanguage = languageValue;
+};
+
+languageChange(selectedLanguage);
+
+console.log('selectedLanguage = ', selectedLanguage);
+/*localStorage.setItem("perlaLanguage", "ro");*/
+
+function languageChange(lang) {
+    console.log("inside function parameter = ", lang);
+
+    localStorage.setItem("perlaLanguage", lang);
+    let nav__list = document.querySelectorAll(".navbar__link");
     let elems = document.getElementsByName('selectLanguage');
 
-    for (i = 0; i < elems.length; i++) {
-        if (elems[i].checked) {
-            languageValue = elems[i].value;
-            // console.log(i, ' = ', elems[i].value);
-        };
-    };
+    /* show checked Language nav */
+    let index = languageSet.indexOf(lang);
 
-    let nav__list = document.querySelectorAll(".navbar__link");
+    /* change navigation text (About Us, Catalog, Contacts) Language */
     for (i = 0; i < nav__list.length; i++) {
         // console.log(i, ' = ', nav__list[i].text);
-        nav__list[i].text = navigation[languageValue][i];
+        nav__list[i].text = navigation[lang][i];
+        elems[index].checked = "checked";
         // console.log(i, ' = ', nav__list[i].text);
     };
 
@@ -201,20 +230,21 @@ function getLanguageValue() {
 
         let x = article__list[i].querySelectorAll(".article__paragraph");
         let y = article__list[i].querySelector(".article__title");
-        y.textContent = articles[i][languageValue].title;
+        y.textContent = articles[i][lang].title;
         // console.log('Title = ', y.textContent);
-        // console.log('M= ', articles[i][languageValue][0]);
+        // console.log('M= ', articles[i][lang][0]);
 
 
         for (j = 0; j < x.length; j++) {
-            x[j].textContent = articles[i][languageValue][j];
+            x[j].textContent = articles[i][lang][j];
             // console.log('X[', j, '] content = ', x[j].textContent);
         };
 
         // console.log(i, ' = ', nav__list[i].text);
-        // nav__list[i].text = navigation[languageValue][i];
+        // nav__list[i].text = navigation[lang][i];
         // console.log(i, ' = ', x);
     };
 
     console.log(navigation[languageValue]);
+
 };
