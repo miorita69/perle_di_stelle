@@ -57,16 +57,16 @@
             </div>
 
             <div class="language__list">
-                <input type="radio" id="En" checked="checked" name="selectLanguage" value="en">
+                <input type="radio" id="En" name="selectLanguage" value="en" onclick="languageChange('en')">
                 <label for="En">En</label>
 
-                <input type="radio" id="It" name="selectLanguage" value="it" disabled="disabled">
+                <input type="radio" id="It" name="selectLanguage" value="it" onclick="languageChange('it')">
                 <label for="It">It</label>
 
-                <input type="radio" id="Ro" name="selectLanguage" value="ro" disabled="disabled">
+                <input type="radio" id="Ro" name="selectLanguage" value="ro" onclick="languageChange('ro')">
                 <label for="Ro">Ro</label>
 
-                <input type="radio" id="Ru" name="selectLanguage" value="ru" disabled="disabled">
+                <input type="radio" id="Ru" name="selectLanguage" value="ru" onclick="languageChange('ru')">
                 <label for="Ru">Ru</label>
             </div>
 
@@ -278,6 +278,7 @@
 
 
     <script src="js/menu.js"></script>
+    <script src="js/language.js"></script>
 </body>
 
 </html>
