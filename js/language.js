@@ -456,6 +456,7 @@ const contactsInfo = {
 }
 
 
+
 /* Identify browser language */
 let userLang = navigator.language || navigator.userLanguage;
 let languageValue = userLang.slice(0, 2);
@@ -467,7 +468,7 @@ console.log('2. Our stored Language = ', storedLanguage);
 
 /*  verify if storedLanguage includes in languageSet = (en, it, ro, ru) */
 var flag = languageSet.includes(storedLanguage);
-console.log('flag = ', flag);
+console.log('3. flag = ', flag);
 
 var selectedLanguage;
 
@@ -485,7 +486,7 @@ languageChange(selectedLanguage);
 localStorage.setItem("perlaLanguage", "ro");*/
 
 function languageChange(lang) {
-    console.log("inside function parameter = ", lang);
+    console.log("4. inside function languageChange = ", lang);
 
     localStorage.setItem("perlaLanguage", lang);
     let nav__list = document.querySelectorAll(".navbar__link");
@@ -508,33 +509,28 @@ function languageChange(lang) {
         let x = article__list[i].querySelectorAll(".article__paragraph");
         let y = article__list[i].querySelector(".article__title");
         y.innerHTML = articles[i][lang].title;
-        // console.log('Title = ', y.textContent);
         // console.log('M= ', articles[i][lang][0]);
 
         for (j = 0; j < x.length; j++) {
             x[j].innerHTML = articles[i][lang][j];
             // console.log('X[', j, '] content = ', x[j].textContent);
         };
-
-        // console.log(i, ' = ', nav__list[i].text);
-        // nav__list[i].text = navigation[lang][i];
-        // console.log(i, ' = ', x);
     };
 
     let contactsText__list = document.querySelectorAll(".contacts__text");
-    let contactsTitle__list = document.querySelectorAll(".contacts__title");
-    let contactsInfo__list = document.querySelectorAll(".contacts__info");
-
     for (i = 0; i < contactsText__list.length; i++) {
         contactsText__list[i].innerHTML = contactsText[lang][i];
     };
 
+    let contactsTitle__list = document.querySelectorAll(".contacts__title");
     for (i = 0; i < contactsTitle__list.length; i++) {
         contactsTitle__list[i].innerHTML = contactsTitle[lang][i];
     };
 
+    let contactsInfo__list = document.querySelectorAll(".contacts__info");
     for (i = 0; i < contactsInfo__list.length; i++) {
         contactsInfo__list[i].innerHTML = contactsInfo[lang][i];
     };
 
+    languageProduces(lang);
 };
