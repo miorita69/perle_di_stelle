@@ -460,15 +460,15 @@ const contactsInfo = {
 /* Identify browser language */
 let userLang = navigator.language || navigator.userLanguage;
 let languageValue = userLang.slice(0, 2);
-console.log('1. Browser Language = ', languageValue);
+// console.log('1. Browser Language = ', languageValue);
 
 /* Identify our previous application language settings */
 var storedLanguage = localStorage.getItem("perlaLanguage");
-console.log('2. Our stored Language = ', storedLanguage);
+// console.log('2. Our stored Language = ', storedLanguage);
 
 /*  verify if storedLanguage includes in languageSet = (en, it, ro, ru) */
 var flag = languageSet.includes(storedLanguage);
-console.log('3. flag = ', flag);
+// console.log('3. flag = ', flag);
 
 var selectedLanguage;
 
@@ -486,7 +486,7 @@ languageChange(selectedLanguage);
 localStorage.setItem("perlaLanguage", "ro");*/
 
 function languageChange(lang) {
-    console.log("4. inside function languageChange = ", lang);
+    // console.log("4. inside function languageChange = ", lang);
 
     localStorage.setItem("perlaLanguage", lang);
     let nav__list = document.querySelectorAll(".navbar__link");
